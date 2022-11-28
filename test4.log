@@ -1,0 +1,11 @@
+INFO 2022-11-09 08:57:00,467 I am trying to read a file
+CRITICAL 2022-11-09 08:57:00,467 this is a situation for us
+ERROR 2022-11-09 08:57:00,467 [Errno 2] No such file or directory: 'sunil.txt'
+INFO root 2022-11-09 09:00:33,071 I am trying to read a file
+CRITICAL root 2022-11-09 09:00:33,071 this is a situation for us
+ERROR root 2022-11-09 09:00:33,072 [Errno 2] No such file or directory: 'sunil.txt'
+ERROR root 2022-11-09 09:00:33,072 [Errno 2] No such file or directory: 'sunil.txt'
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\PycharmProjects\OOPS\log4.py", line 7, in <module>
+    with open("sunil.txt", "r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'sunil.txt'

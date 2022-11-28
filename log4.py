@@ -1,0 +1,12 @@
+import logging
+
+logging.basicConfig(filename= "test4.log", level= logging.DEBUG, format= "%(levelname)s %(name)s %(asctime)s %(message)s")
+
+try:
+    logging.info("I am trying to read a file")
+    with open("sunil.txt", "r"):
+        logging.info("successfully it has read the file")
+except Exception as e:
+    logging.critical("this is a situation for us")
+    logging.error(e)
+    logging.exception(e)

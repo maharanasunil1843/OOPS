@@ -1,0 +1,23 @@
+INFO root 2022-11-09 08:32:14,105 the number entered by user is  3 6
+INFO root 2022-11-09 08:32:58,208 the number entered by user is  3 and 6
+INFO root 2022-11-09 08:35:59,989 the number entered by user is  3 and 6
+INFO root 2022-11-09 08:35:59,989 we are into the function
+INFO root 2022-11-09 08:35:59,989 we have completed the division operation
+INFO root 2022-11-09 08:36:45,389 the number entered by user is  3 and 0
+INFO root 2022-11-09 08:36:45,389 we are into the function
+ERROR root 2022-11-09 08:36:45,389 division by zero
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\PycharmProjects\OOPS\log1.py", line 9, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO root 2022-11-09 08:40:44,648 the number entered by user is  3 and 0
+INFO root 2022-11-09 08:40:44,648 we are into the function
+ERROR root 2022-11-09 08:40:44,648 division by zero
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\PycharmProjects\OOPS\log1.py", line 9, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO root 2022-11-09 08:41:13,784 the number entered by user is  3 and 10
+INFO root 2022-11-09 08:41:13,784 we are into the function
+INFO root 2022-11-09 08:41:13,784 we have completed the division operation
+INFO root 2022-11-09 08:41:13,784 the result of the division is 0.3
